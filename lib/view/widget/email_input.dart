@@ -24,10 +24,10 @@ class EmailInput extends StatelessWidget {
                 : null,
           ),
           keyboardType: TextInputType.emailAddress,
+          textInputAction: TextInputAction.next,
           onChanged: (value) {
             context.read<MyFormBloc>().add(EmailChanged(email: value));
           },
-          textInputAction: TextInputAction.next,
         );
       },
     );

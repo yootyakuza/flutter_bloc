@@ -4,7 +4,7 @@ abstract class MyFormEvent extends Equatable {
   const MyFormEvent();
 
   @override
-  List<Object> get props => [];
+  List get props => [];
 }
 
 class EmailChanged extends MyFormEvent {
@@ -13,7 +13,7 @@ class EmailChanged extends MyFormEvent {
   final String email;
 
   @override
-  List<Object> get props => [email];
+  List get props => [email];
 }
 
 class EmailUnfocused extends MyFormEvent {}
@@ -24,7 +24,7 @@ class PasswordChanged extends MyFormEvent {
   final String password;
 
   @override
-  List<Object> get props => [password];
+  List get props => [password];
 }
 
 class PasswordUnfocused extends MyFormEvent {}

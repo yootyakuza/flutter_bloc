@@ -27,10 +27,10 @@ class PasswordInput extends StatelessWidget {
                 : null,
           ),
           obscureText: true,
+          textInputAction: TextInputAction.done,
           onChanged: (value) {
             context.read<MyFormBloc>().add(PasswordChanged(password: value));
           },
-          textInputAction: TextInputAction.done,
         );
       },
     );
