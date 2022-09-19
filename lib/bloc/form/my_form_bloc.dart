@@ -5,7 +5,7 @@ import 'package:equatable/equatable.dart';
 
 import 'package:formz/formz.dart';
 
-import '../model/model.dart';
+import '../../model/model.dart';
 
 part 'my_form_event.dart';
 part 'my_form_state.dart';
