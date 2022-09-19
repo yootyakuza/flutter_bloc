@@ -42,3 +42,4 @@
 
 - [Counter](https://github.com/yootyakuza/flutter_bloc) - an example of how to create a `CounterBloc`.
 - [Form Validation](https://github.com/yootyakuza/flutter_bloc/tree/form_validation) - an example of how to use `flutter_bloc `.
+- [Clean Architecture](https://github.com/yootyakuza/flutter_bloc/tree/clean_architecture) - an example of how to create `clean architecture` with `multi bloc provider`.
